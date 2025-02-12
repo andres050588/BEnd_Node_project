@@ -1,0 +1,27 @@
+# Dipendenze e pacchetti
+node_modules/
+package-lock.json
+
+# Configurazioni dell'editor e sistema operativo
+.DS_Store
+.vscode/
+.idea/
+
+# File di build e output
+dist/
+build/
+
+# Configurazioni locali
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Log e cache
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
+logs/
+*.log
