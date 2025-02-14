@@ -6,7 +6,7 @@ import { mysqlConnect, syncModels } from "./db.js"
 const server = express() //Creazione applicazione express
 const PORT = 3001 //Impostata la porta del server
 
-server.use(express.json()) //Middleware per parsing del json
+server.use(express.json()) //Middleware per parsing del json, E MOLTO IMPORTANTE per i body delle request.
 
 /*                              ***Endpoints****/
 server.use("/users", userRouter)
